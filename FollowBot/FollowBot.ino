@@ -61,7 +61,7 @@ Serial.println(Right_Value);                      // print the right IR sensor v
 Serial.print("LEFT");                       
 Serial.println(Left_Value);                       //print the left IR sensor value in serial monitor:
 
-if((distance > 1) && (distance < 15)){            //check wheather the ultrasonic sensor's value stays between 1 to 15.
+if((distance > 3) && (distance < 15)){            //check wheather the ultrasonic sensor's value stays between 1 to 15.
                                                   //If the condition is 'true' then the statement below will execute:
   //Move Forward:
   Motor1.setSpeed(130);  //define motor1 speed:
