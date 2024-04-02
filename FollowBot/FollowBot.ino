@@ -44,7 +44,7 @@ for(pos = 0; pos<=90; pos += 1) {       //goes from 180 degrees to 0 degrees:
    pinMode(LEFT, INPUT);  //set analog pin RIGHT as an input:
 }
 
-// the lope function runs forever
+// the loop function runs forever
 void loop() {                             
   
 delay(50);                                        //wait 50ms between pings:
